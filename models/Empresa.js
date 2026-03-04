@@ -17,4 +17,15 @@ export default class Empresa {
     getNomeFantasiaUpper() { return this.nomeFantasia.toUpperCase(); }
     getNomeFantasiaLower() { return this.nomeFantasia.toLowerCase(); }
 
+    detalhe() {
+        let desc = `Razão Social: ${this.razaoSocial}\n`;
+        desc += `Nome fantasia: ${this.nomeFantasia}\n`;
+        desc += `----------------------------\n`;
+
+        this.clientes.forEach(cliente => {
+            desc += cliente.detalhe() + `\n`;
+        });
+
+        return desc;
+    }
 }
