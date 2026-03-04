@@ -10,4 +10,11 @@ export default class Empresa {
     }
 
     get cnpj() { return this.#cnpj; }
+
+    getRazaoSocialUpper() { return this.razaoSocial.toUpperCase(); }
+    getRazaoSocialLower() { return this.razaoSocial.toLowerCase(); }
+
+    getNomeFantasiaUpper() { return this.nomeFantasia.toUpperCase(); }
+    getNomeFantasiaLower() { return this.nomeFantasia.toLowerCase(); }
+
 }
