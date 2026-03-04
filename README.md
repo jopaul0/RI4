@@ -1,4 +1,4 @@
-# Gestão de Clientes e Empresas (RI3)
+# Gestão de Clientes e Empresas com Módulos (RI4)
 
 Este projeto é uma atividade acadêmica desenvolvida para o 3° semestre da **FATEC São José dos Campos**, focada no aprofundamento de Programação Orientada a Objetos (POO) utilizando **JavaScript** moderno.
 
@@ -22,7 +22,7 @@ O sistema simula um cadastro de clientes com gestão de endereços e telefones a
 
 1.  **Clone este repositório:**
     ```bash
-    git clone https://github.com/jopaul0/RI3.git
+    git clone https://github.com/jopaul0/RI4.git
     ```
 2.  **Importe o projeto:**
     Abra a pasta do projeto no VS Code.
@@ -35,7 +35,7 @@ O sistema simula um cadastro de clientes com gestão de endereços e telefones a
 ---
 
 ## Easter Egg
-Atenção, Professor! Mantendo a tradição, há um **Easter Egg** escondido propositalmente no nome dos clientes. Consegue descobrir?
+Atenção, Professor! Mantendo a tradição, há um **Easter Egg** escondido propositalmente no nome do empresa. Consegue descobrir?
 
 ---
 
