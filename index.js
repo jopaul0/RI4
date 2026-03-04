@@ -5,19 +5,19 @@ import Telefone from './models/Telefone.js';
 
 // Criar a Empresa
 const enderecoEmpresa = new Endereco('SP', 'São José dos Campos', 'Av. Cassiano Ricardo', '1500');
-const minhaEmpresa = new Empresa('Tech Solutions LTDA', 'Tech Sol', '12.345.678/0001-90', enderecoEmpresa);
+const minhaEmpresa = new Empresa('Roxxon Energy Corporation', 'Roxxon', '12.345.678/0001-90', enderecoEmpresa);
 
 // Atribuir pelo menos dois telefones à empresa
 minhaEmpresa.telefones.add(new Telefone('12', '3941-0000'));
 minhaEmpresa.telefones.add(new Telefone('12', '99123-4567'));
 
-// Criar cinco idolos do Paysandu, cada um com seu endereço e dois telefones
+// Criar cinco clientes, cada um com seu endereço e dois telefones
 const dadosClientes = [
-    { nome: 'Yago Pikachu', cpf: '111', rua: 'Rua A', num: '10' },
-    { nome: 'Bené', cpf: '222', rua: 'Rua B', num: '20' },
-    { nome: 'Robgol', cpf: '333', rua: 'Rua C', num: '30' },
-    { nome: 'Vandick', cpf: '444', rua: 'Rua D', num: '40' },
-    { nome: 'Zé Augusto', cpf: '555', rua: 'Rua E', num: '50' }
+    { nome: 'João Silva', cpf: '111', rua: 'Rua A', num: '10' },
+    { nome: 'Maria Oliveira', cpf: '222', rua: 'Rua B', num: '20' },
+    { nome: 'Pedro Santos', cpf: '333', rua: 'Rua C', num: '30' },
+    { nome: 'Ana Costa', cpf: '444', rua: 'Rua D', num: '40' },
+    { nome: 'Lucas Souza', cpf: '555', rua: 'Rua E', num: '50' }
 ];
 
 dadosClientes.forEach((dado, index) => {
