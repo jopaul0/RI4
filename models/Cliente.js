@@ -12,4 +12,14 @@ export default class Cliente {
 
     getNomeUpper() { return this.nome.toUpperCase(); }
     getNomeLower() { return this.nome.toLowerCase(); }
+
+    detalhe() {
+        let info = `Nome: ${this.nome}\n`;
+        info += `Estado: ${this.endereco.estado} cidade: ${this.endereco.cidade} rua: ${this.endereco.rua} numero: ${this.endereco.numero}\n`;
+        
+        this.telefones.forEach(tel => {
+            info += `ddd: ${tel.ddd} numero: ${tel.numero}\n`;
+        });
+        return info;
+    }
 }
