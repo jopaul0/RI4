@@ -8,4 +8,6 @@ export default class Empresa {
         this.clientes = new Set();
         this.telefones = new Set();
     }
+
+    get cnpj() { return this.#cnpj; }
 }
