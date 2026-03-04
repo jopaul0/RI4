@@ -33,10 +33,4 @@ dadosClientes.forEach((dado, index) => {
 });
 
 // --- Validação no Console ---
-console.log(`Empresa: ${minhaEmpresa.nomeFantasia}`);
-console.log(`Total de clientes: ${minhaEmpresa.clientes.size}`);
-
-minhaEmpresa.clientes.forEach(c => {
-    console.log(`- Cliente: ${c.nome} | CPF: ${c.cpf}`);
-    console.log(`  Endereço: ${c.endereco.rua}, ${c.endereco.numero}`);
-});
+console.log(minhaEmpresa.detalhe());
