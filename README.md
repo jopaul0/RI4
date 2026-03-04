@@ -15,7 +15,6 @@ O sistema simula um cadastro de clientes com gestão de endereços e telefones a
 
 * **Encapsulamento Estrito:** Uso de campos privados para garantir a integridade dos dados.
 * **Formatação de Dados:** Métodos integrados para recuperação de atributos em caixa alta e caixa baixa.
-* **Ordenação Robusta:** Função que recebe um array de clientes e devolve uma nova lista ordenada alfabeticamente por nome.
 * **Saída Formatada:** Exibição detalhada no console organizando informações de cliente, telefone e endereço.
 
 ## Como Executar
